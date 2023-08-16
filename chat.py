@@ -6,7 +6,7 @@ from langchain import OpenAI
 from langchain.chains import ConversationChain
 
 
-os.environ['OPENAI_API_KEY'] = ''  # Replace with your OpenAI API key
+os.environ['OPENAI_API_KEY'] = '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'  # Replace with your OpenAI API key
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 bot_name = "bot"
